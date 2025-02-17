@@ -8,6 +8,7 @@ import { Page2Component } from './page/page2/page2.component';
 import { Page3Component } from './page/page3/page3.component';
 import { Page1EditComponent } from './page/page1-edit/page1-edit.component';
 import { Page1UpdateComponent } from './page/page1-update/page1-update.component';
+import { EditComponent } from './page1/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Page1UpdateComponent } from './page/page1-update/page1-update.component
     Page2Component,
     Page3Component,
     Page1EditComponent,
-    Page1UpdateComponent
+    Page1UpdateComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
